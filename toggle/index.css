@@ -8,7 +8,7 @@
 }
 
 .question-container {
-    width: fit-content;
+    width: 500px;
 }
 
 .question {
@@ -29,4 +29,33 @@ button {
     border: none;
     background-color: white;
     font-size: x-large;
+}
+
+hr {
+    display: none;
+}
+
+.q-text {
+    display: none;
+}
+
+.show-text .q-text {
+    display: block;
+    transition: ease-in-out;
+}
+
+.show-text hr {
+    display: block;
+}
+
+.minus {
+    display: none;
+}
+
+.show-text .minus {
+    display: inline-block;
+}
+
+.show-text .plus {
+    display: none;
 }
