@@ -1,0 +1,17 @@
+body {
+    margin-bottom: 10%;
+    margin-top: 10%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+img {
+    padding: 0;
+    object-fit: none;
+    object-position: center;
+    transition: width 0.5s ease-in-out;
+    transition-timing-function: cubic-bezier(.17,.67,.53,.92);
+}
