@@ -2,6 +2,7 @@ body {
     width: 100vw;
     display: flex;
     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #component {
@@ -27,4 +28,12 @@ button {
 h3 {
     margin: 20px 10px;
     text-align: center;
+}
+
+div[data-visible="false"] {
+    display: none;
+}
+
+div[data-visible="true"] {
+    display: block;
 }
