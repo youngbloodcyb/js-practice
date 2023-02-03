@@ -3,7 +3,8 @@ console.log("test")
 const elems = document.querySelectorAll('button');
 elems.forEach((el, index) => {
     el.addEventListener("click", (e) => {
-        el.dataset.visible = "true";
+        document.getElementById(`el-${index+1}`).dataset.visible = "true";
+        // el.dataset.visible = "true";
         console.log("test")
     })
 })

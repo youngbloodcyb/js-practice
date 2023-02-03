@@ -37,3 +37,7 @@ div[data-visible="false"] {
 div[data-visible="true"] {
     display: block;
 }
+
+[id^="el-"] {
+    transition: all 2s ease-in;
+}
